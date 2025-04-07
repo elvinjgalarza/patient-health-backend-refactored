@@ -7,7 +7,6 @@ const http = require('http');
 const fs = require('fs');
 
 const util = require('util');
-const fetch = require('node-fetch');
 const querystring = require('querystring');
 
 const { IamAuthenticator } = require('ibm-cloud-sdk-core');
