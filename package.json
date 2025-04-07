@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-patientdb-cloudant",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.12.2",
+    "async-await-retry": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "couchimport": "^1.4.1",
+    "csv": "^6.3.11",
+    "csv-parse": "^5.6.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "author": "Elvin Galarza",
+  "engines": {
+    "node": "22.x"
+  }
+}
