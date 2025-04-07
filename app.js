@@ -37,7 +37,8 @@ async function getIamAccessToken() {
     });
 
     try {
-        const response = await fetch(iamTokenEndpoint, {
+        const fetchModule = await import('node-fetch');
+        const response = await fetchModule.default(iamTokenEndpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
